@@ -222,7 +222,6 @@
         margin-bottom: 20px;
         margin-left: auto;
         margin-right: auto;
-        padding: 15px;
         font-size: 0.9em;
     }
 
@@ -252,12 +251,15 @@
     }
 
     #blocodesenvolvimento {
+        height: auto;
+        font-size: 0.8em;
         text-align: center;
         width: 90%;
     }
 
 
     #footerimgdiv img {
+        width: 20%;
         margin-bottom: 15px;
     }
 }
