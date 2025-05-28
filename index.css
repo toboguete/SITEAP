@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+
+#headercontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+}
+
+#headerhr{
+    width: 85%;
+    border-width: 2px;
+}
+
+#headerimgdiv{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    align-items: center;
+    width: 30%;
+}
+
+#headerimgdiv img{
+    width: 110%;
+    height: 22vh;
+}
+
+
+
+
+
+
+
+
+
+
+#mainheader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 35vh;
+    background-color: lightgray;
+    border-radius: 10px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+#mainheaderp1, #mainheaderp2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+#cateterismoexplicado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+
+
+
+
+
+
+#containerCG, #containerCNE{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#contentcg, #contentcne{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 10px;
+    width: 40%;
+    padding: 1%;
+    text-align: center;
+}
+
+
+
+#imgcg, #imgcne{
+    width: 45%;
+    border-radius: 30px;
+    border-style: solid;
+}
+
+#sectionhr{
+    width: 100%;
+}
+
+.contenthr{
+    width: 95%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#saibamaiscontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+#blocodesenvolvimento{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    padding: 2%;
+    border-radius: 15px;
+    width: 50%;
+}
+
+#blocodesenvolvimento h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#footerimgdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+#footerimgdiv img:hover{
+    animation-name: pulse;
+    animation-duration: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 740px) {
+
+    #headercontainer {
+        height: auto;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+
+    #headerimgdiv {
+        width: 60%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #headerimgdiv img {
+        width: 100%;
+        height: auto;
+    }
+
+    #headerhr {
+        width: 90%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #mainheader {
+        text-align: center;
+        height: auto;
+        padding: 20px 10px;
+        margin-bottom: 40px;
+    }
+
+    #mainheaderp1, #mainheaderp2 {
+        flex-direction: column;
+        width: 90%;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+        font-size: 0.9em;
+    }
+
+    #mainheaderp1 img, #mainheaderp2 img {
+        width: 40px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    #contentcne, #contentcg {
+        height: auto;
+        overflow-y: visible;
+        text-align: center;
+        font-size: smaller;
+        width: 90%;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #imgcg, #imgcne {
+        height: auto;
+        width: 80%;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #blocodesenvolvimento {
+        width: 90%;
+    }
+
+
+    #footerimgdiv img {
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1000px) {
+
+    #headercontainer {
+        height: auto;
+    }
+    #headerimgdiv {
+        width: 30%;
+    }
+    #headerimgdiv img {
+        width: 75%;
+        height: auto;
+    }
+    #headerhr {
+        width: 85%;
+    }
+
+    #mainheader {
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        height: auto;
+    }
+
+    #mediadivmain{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+
+    #mainheaderp1, #mainheaderp2 {
+        width: 40%;
+    }
+
+    #containerCG, #containerCNE {
+        width: 90%;
+        max-width: 1000px;
+        margin: 40px auto;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: nowrap;
+        box-sizing: border-box;
+    }
+    #contentcg, #contentcne {
+        width: 50%;
+        max-width: 500px;
+        padding: 25px;
+        height: auto;
+        text-align: left;
+        margin-bottom: 0;
+        box-sizing: border-box;
+    }
+    #imgcg, #imgcne {
+        width: 45%;
+        max-width: 450px;
+        height: auto;
+        margin-bottom: 0;
+        box-sizing: border-box;
+    }
+
+    #blocodesenvolvimento {
+        width: 50%;
+        max-width: 600px;
+        margin: 40px auto;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    #footerimgdiv {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #footerimgdiv img {
+        margin-bottom: 0;
+    }
+}
